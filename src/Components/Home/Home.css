@@ -1,0 +1,801 @@
+/* .about-img{
+    background-image: url('https://www.zricks.com/img/UpdatesBlog/30de4052-3001-49bd-89a6-6d1c81ff8f21Weekend%20Homes%20or%20Vacation%20Homes-compressed.jpg');
+    background-attachment: fixed;
+    box-shadow: inset 0 0 7px rgb(0 0 0/7%);
+} */
+.imageslider > h3{
+    color: #FBE86F;
+}
+.slider{
+    color: #FBE86F !important;
+}
+
+.slider>.item-1,.slider>.item-2,.slider>.item-3{
+    width: 100% !important;
+    height: 630px !important;
+    color: #FBE86F !important;
+}
+.slider>.item-1>h3{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color: #FBE86F !important;
+}
+.item-2>h3{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color:#FBE86F !important;
+}
+.item-3>h3{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color:#FBE86F !important;
+}
+
+.item-1>p{
+    /* z-index: 4; */
+    color: #FBE86F !important;
+}
+.item-2>p{
+    /* z-index: 4; */
+    color: #FBE86F !important;
+}
+.item-3>p{
+    /* z-index: 4; */
+    color:#FBE86F !important;
+}
+
+
+.Home-main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Raleway', sans-serif; */
+    background-color: #080808;
+    /* background-image:  radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% ); */
+}
+.Home-div-1,.Home-div-2{
+    width: 50%;
+    height: 500px;
+    /* background-color: #191919; */
+    
+}
+/* .font-link {
+    font-family: 'Raleway', sans-serif;
+  } */
+.Home-div-1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #FBE86F !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .Home-div-1  >h3{
+    padding-left: 20px;
+} */
+/* .Home-div-1  >h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #A55C1B !important;
+   
+} */
+/* .Home-div-1 > h3:after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+    border-bottom: 5px solid #A55C1B;
+    transition: 0.4s;
+    margin-left: 25%;
+} */
+.Home-div-1  >h4{
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    font-size: 35px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FBE86F !important;
+   
+}
+
+.Home-div-1  >h3{
+    /* text-align: center; */
+    font-size: 42px;
+    padding-top: 10%;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: #A55C1B !important;
+    text-transform: uppercase;
+   
+}
+.Home-div-1> h3:after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 110%;
+    padding-bottom: 10%;
+    border-bottom: 5px solid #A55C1B;
+    /* margin-left: 25%; */
+}
+.Home-div-1> h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 95%; /* Change this to whatever width you want to have before hover. */
+    /* padding-top: 20px; This creates some space between the element and the border. */
+    border-bottom: 3px solid #A55C1B; /* This creates the border. Replace black with whatever color you want. */
+    transition: .5s; /* This establishes the amount of time in seconds the animation should take from start to finish */
+}
+
+.Home-div-1> h3:hover:after {
+    width: 215%; /* This will be the new width of your border when on hover */
+}
+
+.Home-child-div{
+    margin: 30px;
+    width: 90%;
+    height: 400px;
+    background-color: #BFA181;
+    color: #A55C1B !important;
+}
+.Home-child-div{
+    --g: 10px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #FBE86F ; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(40%);
+    transition: .3s;
+  }
+.Home-child-div:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+  }
+.Home-child-div > p{
+    /* padding-top: 70px; */
+    padding: 50px 20px;
+    font-family: Roboto !important;
+    font-weight: bold;
+    font-size: 20px;
+    color: #A55C1B;
+}
+.Home-about-more-info-box{
+    width: 100%;
+}
+.Home-about-more-info{
+    margin: 2.33% 5%;
+    width: 90%;
+}
+.Home-about-more-info-child{
+    width: 100%;
+    height: 100px;
+    /* background-color: #ECEAE0; */
+    background-color: #101010;
+    color: #FBE86F;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home-about-more-info-child-para{
+    font-family:'Times New Roman', Times, serif !important;
+    text-transform: capitalize;
+    color: #FBE86F;
+    text-align: center;
+}
+.Home-about-more-info-child-button{
+    margin-left: 10%;
+}
+.Home-about-more-info-child-button > .Home-btn{
+    background-color: #080808;
+    text-align: center;
+    color: #fce867;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 170px;
+    height: 50px;
+    font-weight: 200;
+    border: 1px solid #FBE86F;
+    border-radius: 5px;
+}
+.Home-btn:hover{
+    background-color: #FBE86F;
+    color: #080808;
+    font-weight: 300;
+    border: 1px solid #080808;
+}
+.Our-Projects-heading{
+    /* margin: 10% 10%; */
+    /* padding: 10% 10%; */
+    margin: 2% 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+.Our-Projects-heading-child{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #080808;
+    /* background: #FBE86F; */
+    opacity: 0.8;
+    background-image: url("https://thumbs.dreamstime.com/b/construction-site-silhouette-964422.jpg");
+    /* background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png"); */
+   background-attachment: fixed;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.Our-Projects-heading-child> h3{
+    padding-top: 3%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce553;
+    font-family: Roboto !important;
+    letter-spacing: 6px;
+}
+.Our-Projects-photos-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Our-Projects-photos-container-flex-main{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* align-content: center; */
+    text-align: center;
+    margin: 1%;
+    width: 400px;
+    height: 400px;
+    /* height: 100%; */
+   background-color:#FFFFFF;
+   color: #080808;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Our-Projects-photos-container-flex-main:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+    color: #fce553;
+}
+.Our-Projects-photos-container-flex-main-div-1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%; */
+    width:100%;
+    height: 69%;
+}
+.Our-Projects-photos-container-flex-main-div-2{
+    width:100%;
+    height: 20%;
+}
+.Our-Projects-photos-container-flex-main-div-1>img{
+    /* width: 100%; */
+    height: 80%;
+}
+.Our-Projects-photos-container-flex-main-div-1>img:hover{
+    background-color: #0093dd;
+
+    opacity: 0.8;
+}
+.Our-Projects-photos-container-flex-main-div-2 > h6{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.Home-services-main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+    /* font-family: 'Raleway', sans-serif; */
+    /* background-image:  radial-gradient( circle 759px at -6.7% 50%, rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% ); */
+}
+.Home-services-div-1,.Home-services-div-2{
+    width: 50%;
+    height: 500px;
+    /* background-color: #191919; */
+    
+}
+/* .font-link {
+    font-family: 'Raleway', sans-serif;
+  } */
+.Home-services-div-1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    color: #FBE86F !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-indent: 10px;
+}
+
+.Home-services-div-1  >h4{
+    /* text-align: center; */
+    /* padding-top: 10px; */
+    font-size: 35px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #FBE86F !important;
+   
+}
+
+.Home-services-div-1  >h3{
+    /* text-align: center; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    padding-top: 10%;
+    font-style: normal;
+    font-weight: bolder;
+    color: #A55C1B !important;
+    text-transform: uppercase;
+   
+}
+.Home-services-div-1> h3:after{
+    content: '';
+    display: block;
+    position: relative;
+    width: 50%;
+    padding-bottom: 10%;
+    border-bottom: 5px solid #A55C1B;
+    /* margin-left: 25%; */
+}
+.Home-services-div-1> h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 95%; /* Change this to whatever width you want to have before hover. */
+    /* padding-top: 20px; This creates some space between the element and the border. */
+    border-bottom: 3px solid #A55C1B; /* This creates the border. Replace black with whatever color you want. */
+    transition: .5s; /* This establishes the amount of time in seconds the animation should take from start to finish */
+}
+
+.Home-services-div-1> h3:hover:after {
+    width: 165%; /* This will be the new width of your border when on hover */
+}
+
+.Home-services-child-div{
+    margin: 30px;
+    width: 90%;
+    height: 400px;
+    background-color: #BFA181;
+    color: #A55C1B;
+     
+}
+.Home-services-child-div{
+    --g: 10px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #FBE86F; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(40%);
+    transition: .3s;
+  }
+.Home-services-child-div:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+  }
+  
+  /* body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+    gap: 30px;
+    background: pink;
+  } */
+.Home-services-child-div > p{
+    /* padding-top: 70px; */
+    padding: 50px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #A55C1B;
+}
+.Home-S-card-Item{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 260px;
+background-color: #ffffff;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+}
+.Home-S-card-Item-img{
+    width: 30%;
+    cursor: pointer;
+    height: 200px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.Home-S-card-Item-img> img{
+    /* width: 80%; */
+    height: 80%;
+}
+.Home-S-card-Item-img> img:hover{
+    transition:  all .2s ease-in-out; 
+ opacity: 0.8;
+}
+.font-link {
+    font-family: 'Cormorant Garamond',serif;
+  }
+.Home-S-card-Item-desc{
+    width: 70%;
+    font-family: 'Cormorant Garamond',serif;
+    padding-right: 10%;
+}
+.Home-S-card-Item-desc > h1{
+    width: 80%;
+   opacity: 1;
+   font-weight: bold;
+   color: #05386B;
+    font-size: 40px;
+    font-family: 'Cormorant Garamond',serif;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.Home-S-card-Item-desc > h6{
+    width: 80%;
+   opacity: 1;
+   font-weight: 400;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond',serif;
+}
+/* .S-card-Item-desc > h1:hover{
+    transition:  all .2s ease-in-out; 
+    opacity: 0.8;
+     border-bottom: 5px solid yellowgreen ;
+} */
+.Home-S-card-Item-desc > h1:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 0; /* Change this to whatever width you want to have before hover. */
+    padding-top: 0; /* This creates some space between the element and the border. */
+    border-bottom: 3px solid yellowgreen; /* This creates the border. Replace black with whatever color you want. */
+    transition: .5s;
+}
+.Home-S-card-Item-desc > h1:hover:after {
+    width: 25%; /* This will be the new width of your border when on hover */
+}
+
+
+
+.Home-S-card-Item-desc> h1::after {
+content: '';
+display: block;
+width: 0;
+height: 2px;
+background:yellowgreen;
+transition: width .3s;
+}
+
+.Home-S-card-Item-desc> h1:hover::after {
+width: 100%;
+transition: width .3s ;
+}
+.Home-testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+   
+}
+.Home-testimonials>h1{
+    font-family: Roboto;
+    font-weight: bold;
+    color: #fce553;
+}
+.Home-testimonials>p{
+    font-size: 20px;
+}
+.Home-testimonials-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Home-testimonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background:#fae979;
+    border: 1px solid #fce553;
+    padding: 25px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Home-testimonials-col img{
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    float: left;
+}
+.Home-testimonials-col p{
+    padding: 0;
+    text-align: right;
+    color: #080808;
+}
+.Home-testimonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+    
+}
+.Home-testimonials-col .fa{
+    color:#080808;
+}
+/* .Home-testimonials-col-normal-star{
+    color: orange !important;
+}
+.Home-testimonials-col-half-star{
+    background-color: yellow;
+    color: orange !important;
+} */
+/* .chatbot-main{
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    top: 7em;
+    right: 1em;
+    box-shadow: gba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 5000;
+} */
+/* .chatbot-main-head{
+    padding-left: 5%;
+    width:100%;
+    height: 90px;
+    background-color: #0a5f54;
+    display: flex;
+    flex: wrap;
+   
+} */
+/* .chatbot-main-head-div-1{
+    padding: 5% 5%;
+    width:30%;
+} */
+/* #icon-avtar{
+    width: 100% !important;
+    height: 80% !important;
+} */
+/* #icon-avtar-1{
+    width: 80% !important;
+    height: 90% !important;
+    color:#0a5f54;
+} */
+/* .chatbot-main-head-div-1 >Avtar>img{
+    width: 100%;
+} */
+/* .chatbot-main-head-div-2{
+    float: right;
+    width:70%;
+} */
+/* .chatbot-main-head-div-2 > h4{
+    padding-top: 20px;
+    padding-right: 3px;
+    text-align: center;
+    font-size: 20px;
+    height: 60%;
+} */
+/* .chatbot-main-head-div-2 > p{
+    font-size: 10px;
+    height: 40%;
+} */
+/* .chatbot-main-content{
+    padding-left: 5%;
+    width: 100%;
+    height: 220px;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+} */
+/* .chatbot-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+} */
+/* .chatbot-main-content-child{
+    width:200px;
+    height: 90px;
+    background-color: aliceblue;
+    border-radius: 5px;
+} */
+/* .chatbot-main-content-child > h6{
+    color: gray;
+} */
+/* .chatbot-main-content-child > h2{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    color: #000;
+    font-size: 14px;
+} */
+
+/* .chatbot-main-tail{
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 100%;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 10px;
+    text-align: center;
+} */
+/* .chatbot-main-whatsapp-div{
+    width: 100%;
+    height: 100px;
+} */
+/* .chatbot-main-tail-btn{
+    padding-left: 20px;
+    width: 350px;
+    width: ;
+    height: 50px;
+    background-color: #25d366;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+} */
+/* .chatbot-main-tail-btn > #chat{
+    padding-top: 2px;
+    text-align: center;
+    padding-left: 2px;
+} */
+      /* for desktop */
+/* .chatbot-main-tail-btn-a {  
+    padding-top: 2px;
+          background-color: #25d366;
+          color: #FFF;
+          text-align: center; }
+.whatsapp-icon {
+          margin-top: 16px;
+      } */
+
+      /* for mobile */
+      /* @media screen and (max-width: 767px) {
+          .whatsapp-icon {
+              margin-top: 10px;
+          }
+
+          .whatsapp_float {
+              width: 40px;
+              height: 40px;
+              bottom: 20px;
+              right: 10px;
+              font-size: 22px;
+          }
+      } */
+
+.home-footer-fixed-newsletter {
+    height: 100px;
+    width: 100%;
+    background-color: #080808;
+    /* background-color: #EAEDED; */
+    color:#fae560;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    /* border: 1px solid  rgb(165, 204, 86); */
+}
+.home-footer-fixed-newsletter-child-div{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.home-footer-fixed-newsletter form{
+    width: 280px;
+    max-width: 100%;
+    position: relative;
+}
+.home-footer-fixed-newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #fae560;
+    /* border: 2px solid #f9004d; */
+    outline: none;
+    border-radius: 30px;
+} 
+.home-footer-fixed-newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:#fae560;
+    color: black;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.home-footer-fixed-newsletter form input:last-child:hover{
+    background-color:black;
+    color: #fae560;
+    border:1px solid #fae560;
+}
+.home-footer-fixed-connect-social{
+    width: 100%;
+    height: 100px;
+    /* background-color:#AAAAAA; */
+    background-color: #EAEDED;
+    /* background-color:  rgb(165, 204, 86); */
+    /* border: 1px solid rgb(165, 204, 86); */
+    border: 1px solid #A55C1B;
+    /* color: #080808;
+    color: #101010;
+    color: #A55C1B;
+    color: #a75004; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* h3,span */
+.home-footer-fixed-connect-social > h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: #080808;
+}
+.home-footer-fixed-connect-social-icons > a{
+    text-decoration: none;
+    padding-left: 7px;
+}
+.home-footer-fixed-connect-social-icons > a:first-child{
+    color: #1DA1F2;
+}
+.home-footer-fixed-connect-social-icons > a:nth-child(2){
+    color:#dc2743; 
+    /* color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
+}
+.home-footer-fixed-connect-social-icons > a:nth-child(3){
+    color: #4867AA;
+}
+.home-footer-fixed-connect-social-icons > a:nth-child(4){
+    color: #FFFFFF,#4867AA;
+}
+.home-footer-fixed-connect-social-icons >a:nth-child(5){
+    color: #1BD741;
+   
+}

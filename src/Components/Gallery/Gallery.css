@@ -1,0 +1,119 @@
+.Gallery-Container{
+    margin-top: 10%;
+    width: 100%;
+    height:600px;
+}
+.Gallery-Container-img-div{
+   background-position: center;
+   background-repeat: no-repeat;
+    width: 90%;
+    height: 90%;
+    background-image: url('https://www.zricks.com/img/UpdatesBlog/30de4052-3001-49bd-89a6-6d1c81ff8f21Weekend%20Homes%20or%20Vacation%20Homes-compressed.jpg');
+    background-attachment: fixed;
+    box-shadow: inset 0 0 7px rgb(0 0 0/7%);
+}
+.Gallery-heading{
+    /* margin: 10% 10%; */
+    /* padding: 10% 10%; */
+    margin: 8%  0 0 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+.Gallery-heading-child{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #b18660;
+    background-image: url("https://i.pinimg.com/originals/94/ba/53/94ba53dc8a376c9727742a4fd56cf509.gif");
+    /* background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png"); */
+    background-attachment: fixed;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.Gallery-heading-child> h3{
+    padding-top: 3%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fce554;
+    /* font-family: cursive; */
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 6px;
+}
+.Gallery-photos-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Gallery-photos-container-css-2{
+    width: 400px;
+    height: 400px;
+    height: 80%;
+margin: 10px 5px 10px 5px;
+transition-duration: 300ms;
+transition-property: all;
+/* top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+position: absolute; */
+/* visibility: hidden; */
+    /* opacity: 0; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.Gallery-photos-container-css-2> img{
+    width: 400px;
+    height: 400px;
+    /* height: 40;
+    width: 40;
+    stroke: rgb(255, 255, 255);
+    overflow-clip-margin: content-box;
+    overflow: hidden; */
+}
+.Gallery-photos-container-css-2> img:hover{
+    transition: opacity 250ms;
+    opacity: .6;
+    cursor: pointer;
+    background-color: #262626;
+}
+.Gallery-photos-container-flex-main{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* align-content: center; */
+    text-align: center;
+    margin: 1%;
+    width: 400px;
+    height: 400px;
+    /* height: 100%; */
+   background-color: aliceblue;
+   color: blue;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.Gallery-photos-container-flex-main:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Gallery-photos-container-flex-main-div-1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%; */
+    width:100%;
+    height: 69%;
+}
+/* .Gallery-photos-container-flex-main-div-2{
+    width:100%;
+    height: 20%;
+} */
+.Gallery-photos-container-flex-main-div-1>img{
+    /* width: 100%; */
+    height: 80%;
+}
+.Gallery-photos-container-flex-main-div-2 > h6{
+    font-size: 20px;
+    text-transform: capitalize;
+}

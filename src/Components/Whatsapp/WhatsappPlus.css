@@ -1,0 +1,127 @@
+.chatbot-main{
+    width: 350px;
+    height: 500px;
+}
+.chatbot-main-head{
+    padding-left: 5%;
+    width:100%;
+    height: 90px;
+    background-color: #0a5f54;
+    display: flex;
+    flex: wrap;
+   
+}
+.chatbot-main-head-div-1{
+    padding: 5% 5%;
+    width:30%;
+}
+#icon-avtar{
+    width: 80% !important;
+    height: 70% !important;
+}
+#icon-avtar-1{
+    width: 80% !important;
+    height: 90% !important;
+    color:#0a5f54;
+}
+.chatbot-main-head-div-1 >Avtar>Person3Icon{
+    width: 100%;
+}
+.chatbot-main-head-div-2{
+    float: right;
+    width:70%;
+}
+.chatbot-main-head-div-2 > h4{
+    font-size: 20px;
+    /* height: 60%; */
+}
+.chatbot-main-head-div-2 > p{
+    font-size: 10px;
+    /* height: 40%; */
+}
+.chatbot-main-content{
+    padding-left: 5%;
+    width: 100%;
+    height: 320px;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+}
+.chatbot-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.chatbot-main-content-child{
+    width:150px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.chatbot-main-content-child > h6{
+    color: gray;
+}
+.chatbot-main-content-child > h2{
+    /* margin: 0;
+    padding: 0; */
+    /* color: gray; */
+    color: #000;
+    font-size: 10px;
+}
+
+.chatbot-main-tail{
+    padding-left: 5%;
+    width: 100%;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 10px;
+    text-align: center;
+}
+.chatbot-main-whatsapp-div{
+    width: 100%;
+    height: 100px;
+}
+.chatbot-main-tail-btn{
+    padding-left: 20px;
+    /* width: 350px; */
+    /* width: ; */
+    height: 50px;
+    background-color: #25d366;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+      /* for desktop */
+      .whatsapp_float {
+          /* position: fixed; */
+          width: 60px;
+          height: 60px;
+          /* bottom: 40px;
+          right: 40px; */
+          background-color: #25d366;
+          color: #FFF;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 2px 2px 3px #999;
+          z-index: 100;
+      }
+
+      .whatsapp-icon {
+          margin-top: 16px;
+      }
+
+      /* for mobile */
+      /* @media screen and (max-width: 767px) {
+          .whatsapp-icon {
+              margin-top: 10px;
+          }
+
+          .whatsapp_float {
+              width: 40px;
+              height: 40px;
+              bottom: 20px;
+              right: 10px;
+              font-size: 22px;
+          }
+      } */
+

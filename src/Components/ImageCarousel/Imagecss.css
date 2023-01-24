@@ -1,0 +1,19 @@
+
+
+.item-1,.item-2,.item-3{
+    width: 100% !important;
+    height: 630px !important;
+    
+}
+h3{
+    
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+}
+
+p{
+    /* z-index: 4; */
+    color: black;
+}
+
