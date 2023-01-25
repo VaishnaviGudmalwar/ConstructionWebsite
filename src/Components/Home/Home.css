@@ -4,7 +4,7 @@
     box-shadow: inset 0 0 7px rgb(0 0 0/7%);
 } */
 .imageslider > h3{
-    color: #FBE86F;
+    color: #4867AA !important;
 }
 .slider{
     color: #FBE86F !important;
@@ -44,7 +44,7 @@
 }
 .item-3>p{
     /* z-index: 4; */
-    color:#FBE86F !important;
+    color: #0093dd;
 }
 
 
@@ -52,7 +52,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height:500px;
+    height:440px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,7 +63,7 @@
 }
 .Home-div-1,.Home-div-2{
     width: 50%;
-    height: 500px;
+    height: 440px;
     /* background-color: #191919; */
     
 }
@@ -147,13 +147,13 @@
 .Home-child-div{
     margin: 30px;
     width: 90%;
-    height: 400px;
+    height: 340px;
     background-color: #BFA181;
     color: #A55C1B !important;
 }
 .Home-child-div{
-    --g: 10px;     /* the gap */
-    --b: 12px;    /* border thickness*/
+    --g: 7px;     /* the gap */
+    --b: 7px;    /* border thickness*/
     --c: #FBE86F ; /* the color */
     
     
@@ -173,13 +173,27 @@
     --_p: 75%;
     filter: grayscale(0%);
   }
+  .Home-div-2{
+    /* display: ; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .Home-child-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 .Home-child-div > p{
     /* padding-top: 70px; */
-    padding: 50px 20px;
-    font-family: Roboto !important;
+    padding: 0px 20px;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: #A55C1B;
+   /* color: #fce553; */
 }
 .Home-about-more-info-box{
     width: 100%;
@@ -205,6 +219,7 @@
     color: #FBE86F;
     text-align: center;
 }
+
 .Home-about-more-info-child-button{
     margin-left: 10%;
 }
@@ -218,12 +233,14 @@
     font-weight: 200;
     border: 1px solid #FBE86F;
     border-radius: 5px;
+   
 }
 .Home-btn:hover{
     background-color: #FBE86F;
     color: #080808;
     font-weight: 300;
     border: 1px solid #080808;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
 }
 .Our-Projects-heading{
     /* margin: 10% 10%; */
@@ -243,7 +260,11 @@
     background-color: #080808;
     /* background: #FBE86F; */
     opacity: 0.8;
-    background-image: url("https://thumbs.dreamstime.com/b/construction-site-silhouette-964422.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-image: url("https://thumbs.dreamstime.com/b/luxury-golden-background-gradient-light-35374074.jpg");
+    /* background-image: url("https://i0.wp.com/theconstructor.org/wp-content/uploads/2018/09/Construction-Drawing.jpg?fit=1300%2C867&ssl=1"); */
+    /* background-image: url('data:image/jpeg;base64,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'); */
     /* background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png"); */
    background-attachment: fixed;
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
@@ -252,64 +273,85 @@
     padding-top: 3%;
     font-size: 50px;
     font-weight: bold;
-    color: #fce553;
-    font-family: Roboto !important;
+    color: black;
+    /* font-family: Roboto !important; */
+    font-family: 'Aboreto', cursive;
     letter-spacing: 6px;
 }
-.Our-Projects-photos-container-flex{
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .Our-Projects-photos-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items:center;
+  }
+.Our-Projects-photos-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
 }
-.Our-Projects-photos-container-flex-main{
-    /* display: flex;
+/* .Our-Projects-photos-container-flex-main{
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    /* align-content: center; */
+    align-items: center;
+    align-content: center;
     text-align: center;
     margin: 1%;
     width: 400px;
     height: 400px;
-    /* height: 100%; */
+    height: 100%;
    background-color:#FFFFFF;
    color: #080808;
    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-}
-.Our-Projects-photos-container-flex-main:hover{
+} */
+/* .Our-Projects-photos-container-flex-main:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
     color: #fce553;
-}
-.Our-Projects-photos-container-flex-main-div-1{
-    /* display: flex;
+} */
+/* .Our-Projects-photos-container-flex-main-div-1{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%; */
+    margin: 2%;
     width:100%;
     height: 69%;
-}
-.Our-Projects-photos-container-flex-main-div-2{
+} */
+/* .Our-Projects-photos-container-flex-main-div-2{
     width:100%;
     height: 20%;
-}
-.Our-Projects-photos-container-flex-main-div-1>img{
-    /* width: 100%; */
+} */
+/* .Our-Projects-photos-container-flex-main-div-1>img{
+    width: 100%;
     height: 80%;
-}
-.Our-Projects-photos-container-flex-main-div-1>img:hover{
+} */
+/* .Our-Projects-photos-container-flex-main-div-1>img:hover{
     background-color: #0093dd;
 
     opacity: 0.8;
-}
-.Our-Projects-photos-container-flex-main-div-2 > h6{
+} */
+/* .Our-Projects-photos-container-flex-main-div-2 > h6{
     font-size: 20px;
     text-transform: capitalize;
-}
+} */
 
 .Home-services-main{
     margin: 0;
     padding: 0;
     width: 100%;
-    height:500px;
+    height:440px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -320,7 +362,7 @@
 }
 .Home-services-div-1,.Home-services-div-2{
     width: 50%;
-    height: 500px;
+    height: 440px;
     /* background-color: #191919; */
     
 }
@@ -370,6 +412,12 @@
     border-bottom: 5px solid #A55C1B;
     /* margin-left: 25%; */
 }
+.Home-services-div-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .Home-services-div-1> h3:after {
     content: ""; /* This is necessary for the pseudo element to work. */ 
     display: block; /* This will put the pseudo element on its own line. */
@@ -384,16 +432,20 @@
 }
 
 .Home-services-child-div{
-    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px; */
     width: 90%;
-    height: 400px;
+    height: 340px;
     background-color: #BFA181;
     color: #A55C1B;
      
 }
 .Home-services-child-div{
-    --g: 10px;     /* the gap */
-    --b: 12px;    /* border thickness*/
+    --g: 7px;     /* the gap */
+    --b: 7px;    /* border thickness*/
     --c: #FBE86F; /* the color */
     
     
@@ -425,7 +477,7 @@
   } */
 .Home-services-child-div > p{
     /* padding-top: 70px; */
-    padding: 50px 20px;
+    padding: 0px 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -716,19 +768,25 @@ transition: width .3s ;
     /* border: 1px solid  rgb(165, 204, 86); */
 }
 .home-footer-fixed-newsletter-child-div{
+    /* height: 40px; */
     width: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+/* #footer-fixed-newsletter-child-div-form{
+    height: 90px !important;
+} */
 .home-footer-fixed-newsletter form{
-    width: 280px;
+    /* height: 100px; */
+    width: 380px;
     max-width: 100%;
     position: relative;
 }
 .home-footer-fixed-newsletter form input:first-child{
     display: inline-block;
     width: 100%;
+    height: 45px !important;
     padding: 14px 130px 14px 15px;
     border: 2px solid #fae560;
     /* border: 2px solid #f9004d; */
@@ -740,7 +798,7 @@ transition: width .3s ;
     display: inline-block;
     outline: none;
     border: none ;
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 30px;
     background-color:#fae560;
     color: black;
@@ -779,6 +837,11 @@ transition: width .3s ;
     text-decoration: none;
     padding-left: 7px;
 }
+#icon-1:hover{
+    /* text-decoration: none;
+    padding-left: 7px; */
+    color: #fce553;
+}
 .home-footer-fixed-connect-social-icons > a:first-child{
     color: #1DA1F2;
 }
@@ -793,7 +856,7 @@ color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc
     color: #4867AA;
 }
 .home-footer-fixed-connect-social-icons > a:nth-child(4){
-    color: #FFFFFF,#4867AA;
+    color: #FFFFFF,#4867AA !important;
 }
 .home-footer-fixed-connect-social-icons >a:nth-child(5){
     color: #1BD741;

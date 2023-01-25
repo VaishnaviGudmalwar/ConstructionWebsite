@@ -4,32 +4,32 @@ export const OurServices = () => {
     const services=[{
             "id": 1,
             "title": "General Contracting",
-            "description": "From remodeling to building a new home from the ground up, Rüya Construction Group is passionate about creating a rewarding construction experience for our clients, our designers and trade partners, and our team.",
+            "description": "From remodeling to building a new home from the ground up, MDA & UNIQUE Asssociates is passionate about creating a rewarding construction experience for our clients, our designers and trade partners, and our team.",
             "image": "https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/GENERAL-CONTRACTING_ICON_JOELCO-1.png",
             },{
                  "id": 2,
         "title": "Commercial Construction",
-        "description":"Whether you need to renovate a restaurant or build a new, high-end spa, Rüya Construction Group’s quality workmanship makes the planning and construction process simple and easy ⁠— resolving in a practical and attractive commercial space.",
+        "description":"Whether you need to renovate a restaurant or build a new, high-end spa, MDA & UNIQUE Asssociates’s quality workmanship makes the planning and construction process simple and easy ⁠— resolving in a practical and attractive commercial space.",
         "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/COMMERCIAL-CONSTRUCTION_ICON_JOELCO2.png"
         },{
              "id": 3,
     "title": "Custom Home Building",
-    "description":"The team at Rüya Construction Group possess a powerful understanding of the design process, and the creativity to synthesize it with construction planning.",
+    "description":"The team at MDA & UNIQUE Asssociates possess a powerful understanding of the design process, and the creativity to synthesize it with construction planning.",
     "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/CUSTOM-HOME-BUILDING_ICON_JOELCO-1.png"
     },{
              "id": 4,
     "title": "Kitchen Remodeling",
-    "description":"Remodeling the kitchen is a great way to give a home a facelift. Working within the client’s budget, Rüya Construction Group provides the best service and return on investment.",
+    "description":"Remodeling the kitchen is a great way to give a home a facelift. Working within the client’s budget, MDA & UNIQUE Asssociates provides the best service and return on investment.",
     "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/BATHROOM-REMODELING_ICON_JOELCO-1.png"
     },{
              "id": 5,
     "title": "Bathroom Remodeling",
-    "description":"Rüya Construction Group can transform any bathroom into a desirable retreat ⁠— bringing the vision of the homeowner to life by redesigning and remodeling their old bathrooms and transforming them into a dream space.",
+    "description":"MDA & UNIQUE Asssociates can transform any bathroom into a desirable retreat ⁠— bringing the vision of the homeowner to life by redesigning and remodeling their old bathrooms and transforming them into a dream space.",
     "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/05/BATHROOM-REMODELING_ICON_JOELCO-rev.png"
     },{
              "id": 6,
     "title": "Room Additions",
-    "description":"Adding additional rooms is an important job and is best left to an experienced room addition contractor. Rüya Construction Group provides renditions of the general and specific areas of the home to present the best plan of action for the new addition.",
+    "description":"Adding additional rooms is an important job and is best left to an experienced room addition contractor. MDA & UNIQUE Asssociates provides renditions of the general and specific areas of the home to present the best plan of action for the new addition.",
     "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/ROOM-ADDITIONS_ICON_JOELCO2.png"
     }
     ]

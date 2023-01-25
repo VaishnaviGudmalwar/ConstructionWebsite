@@ -67,7 +67,7 @@ export const FooterFixed = () => {
        </div>
        </div>
        <div className='footer-fixed-copyright'>
-        <h1>© 2021 Copyright: MKD & UNIQUE Asssociates</h1>
+        <h1>© 2021 Copyright: MDA & UNIQUE Asssociates</h1>
        </div>
     </div>
   )

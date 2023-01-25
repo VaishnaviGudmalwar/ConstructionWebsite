@@ -29,64 +29,65 @@ function Home() {
   const services=[{
     "id": 1,
     "title": "General Contracting",
-    "description": "From remodeling to building a new home from the ground up,MKD & UNIQUE Asssociates is passionate about creating a rewarding construction experience for our clients, our designers and trade partners, and our team.",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-pljiuLxi6wgROyTLNoTvxLAtuWq1nikKQ&usqp=CAU",
+    "description": "From remodeling to building a new home from the ground up,MDA & UNIQUE Asssociates is passionate about creating a rewarding construction experience for our clients, our designers and trade partners, and our team.",
+    "image": "https://media.istockphoto.com/id/471104670/photo/beautiful-home-exterior-at-night.jpg?s=170667a&w=0&k=20&c=dtx4SaXe1J5oBPaz8krbKk7_7EQSMZzyfcrVK_GGeds=",
     },{
          "id": 2,
 "title": "Commercial Construction",
-"description":"Whether you need to renovate a restaurant or build a new, high-end spa,MKD & UNIQUE Asssociates ’s quality workmanship makes the planning and construction process simple and easy ⁠— resolving in a practical and attractive commercial space.",
-"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU-pljiuLxi6wgROyTLNoTvxLAtuWq1nikKQ&usqp=CAU"
+"description":"Whether you need to renovate a restaurant or build a new, high-end spa,MDA & UNIQUE Asssociates ’s quality workmanship makes the planning and construction process simple and easy ⁠— resolving in a practical and attractive commercial space.",
+"image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZYctxpH6AiSFscjuouaX8eagXVrxW6CKo9Q&usqp=CAU"
 },{
      "id": 3,
 "title": "Custom Home Building",
-"description":"The team atMKD & UNIQUE Asssociates  possess a powerful understanding of the design process, and the creativity to synthesize it with construction planning.",
-"image":"https://images.adsttc.com/media/images/6077/43aa/ebb5/fc01/6543/b86b/newsletter/fi-img-1234.jpg?1618428850"
+"description":"The team atMDA & UNIQUE Asssociates  possess a powerful understanding of the design process, and the creativity to synthesize it with construction planning.",
+"image":"https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041__340.jpg"
 },{
      "id": 4,
 "title": "Kitchen Remodeling",
-"description":"Remodeling the kitchen is a great way to give a home a facelift. Working within the client’s budget,MKD & UNIQUE Asssociates  provides the best service and return on investment.",
-"image":"https://media.designcafe.com/wp-content/uploads/2020/06/23130933/traditional-indian-kitchen-design.jpg"
+"description":"Remodeling the kitchen is a great way to give a home a facelift. Working within the client’s budget,MDA & UNIQUE Asssociates  provides the best service and return on investment.",
+"image":"https://i.pinimg.com/736x/c9/2a/e5/c92ae55873f9a3bbc1b3fcb5484bf88c.jpg"
 },{
      "id": 5,
 "title": "Bathroom Remodeling",
-"description":"Rüya  can transform any bathroom into a desirable retreat ⁠— bringing the vision of the homeowner to life by redesigning and remodeling their old bathrooms and transforming them into a dream space.",
-"image":"https://i.pinimg.com/550x/e2/6a/e4/e26ae40fa6a30a61d4c8242b69ac6401.jpg"
+"description":"MDA & UNIQUE Asssociates  can transform any bathroom into a desirable retreat ⁠— bringing the vision of the homeowner to life by redesigning and remodeling their old bathrooms and transforming them into a dream space.",
+"image":"https://media.istockphoto.com/id/1067058352/photo/bathroom-in-new-luxury-home-with-two-sinks-and-dark-blue-cabinets-shows-walk-in-closet.jpg?s=612x612&w=0&k=20&c=8XejNHKR3H4so7JGreRWCEE3vAZFpqDkU3FdYqLuYog="
 },{
      "id": 6,
 "title": "Room Additions",
-"description":"Adding additional rooms is an important job and is best left to an experienced room addition contractor.MKD & UNIQUE Asssociates  provides renditions of the general and specific areas of the home to present the best plan of action for the new addition.",
+"description":"Adding additional rooms is an important job and is best left to an experienced room addition contractor.MDA & UNIQUE Asssociates  provides renditions of the general and specific areas of the home to present the best plan of action for the new addition.",
 "image":"http://www.theeasternhotel.com/uploads/gallery/NSP_1733a.jpg"
 }
 ]
 const HomeServices=[{
   "id": 1,
   "title": "General Contracting",
-  "description": "From remodeling to building a new home from the ground up,MKD & UNIQUE Asssociates  is passionate about creating a rewarding construction experience for our clients, our designers and trade partners, and our team.",
+  "description": "From remodeling to building a new home from the ground up,MDA & UNIQUE Asssociates  is passionate about creating a rewarding construction experience for our clients, our designers and trade partners, and our team.",
   "image": "https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/GENERAL-CONTRACTING_ICON_JOELCO-1.png",
   },{
        "id": 2,
 "title": "Commercial Construction",
-"description":"Whether you need to renovate a restaurant or build a new, high-end spa,MKD & UNIQUE Asssociates ’s quality workmanship makes the planning and construction process simple and easy ⁠— resolving in a practical and attractive commercial space.",
+"description":"Whether you need to renovate a restaurant or build a new, high-end spa,MDA & UNIQUE Asssociates ’s quality workmanship makes the planning and construction process simple and easy ⁠— resolving in a practical and attractive commercial space.",
 "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/COMMERCIAL-CONSTRUCTION_ICON_JOELCO2.png"
 },{
    "id": 3,
 "title": "Custom Home Building",
-"description":"The team atMKD & UNIQUE Asssociates  possess a powerful understanding of the design process, and the creativity to synthesize it with construction planning.",
+"description":"The team atMDA & UNIQUE Asssociates  possess a powerful understanding of the design process, and the creativity to synthesize it with construction planning.",
 "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/CUSTOM-HOME-BUILDING_ICON_JOELCO-1.png"
 },{
    "id": 4,
 "title": "Kitchen Remodeling",
-"description":"Remodeling the kitchen is a great way to give a home a facelift. Working within the client’s budget,MKD & UNIQUE Asssociates  provides the best service and return on investment.",
+"description":"Remodeling the kitchen is a great way to give a home a facelift. Working within the client’s budget,MDA & UNIQUE Asssociates  provides the best service and return on investment.",
 "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/BATHROOM-REMODELING_ICON_JOELCO-1.png"
 },{
    "id": 5,
 "title": "Bathroom Remodeling",
-"description":"Rüya  can transform any bathroom into a desirable retreat ⁠— bringing the vision of the homeowner to life by redesigning and remodeling their old bathrooms and transforming them into a dream space.",
-"image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/05/BATHROOM-REMODELING_ICON_JOELCO-rev.png"
+"description":"MDA & UNIQUE Asssociates  can transform any bathroom into a desirable retreat ⁠— bringing the vision of the homeowner to life by redesigning and remodeling their old bathrooms and transforming them into a dream space.",
+"image":"https://media.istockphoto.com/id/1067058352/photo/bathroom-in-new-luxury-home-with-two-sinks-and-dark-blue-cabinets-shows-walk-in-closet.jpg?s=612x612&w=0&k=20&c=8XejNHKR3H4so7JGreRWCEE3vAZFpqDkU3FdYqLuYog="
+// "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/05/BATHROOM-REMODELING_ICON_JOELCO-rev.png"
 },{
    "id": 6,
 "title": "Room Additions",
-"description":"Adding additional rooms is an important job and is best left to an experienced room addition contractor.MKD & UNIQUE Asssociates  provides renditions of the general and specific areas of the home to present the best plan of action for the new addition.",
+"description":"Adding additional rooms is an important job and is best left to an experienced room addition contractor.MDA & UNIQUE Asssociates  provides renditions of the general and specific areas of the home to present the best plan of action for the new addition.",
 "image":"https://losangelesgeneralcontractor.com/wp-content/uploads/2020/02/ROOM-ADDITIONS_ICON_JOELCO2.png"
 }
 ]
@@ -107,7 +108,7 @@ const HomeServices=[{
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>we create dreams</h3>
+          <h3 style={{color:"#fce553",textTransform:"capitalize",fontFamily:"serif"}}>we create dreams</h3>
           <p>We believe in Quality and Customer Satisfaction above all else. We provide personalized service and handle each project from start to finish.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -120,7 +121,7 @@ const HomeServices=[{
         />
 
         <Carousel.Caption>
-          <h3>we create dreams</h3>
+          <h3 style={{color:"#fce553",textTransform:"capitalize",fontFamily:"serif"}}>we create dreams</h3>
           <p>We believe in Quality and Customer Satisfaction above all else. We provide personalized service and handle each project from start to finish.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -133,7 +134,7 @@ const HomeServices=[{
           alt="Third slide"
         />
         <Carousel.Caption>
-        <h3>we create dreams</h3>
+        <h3 style={{color:"#fce553",textTransform:"capitalize",fontFamily:"serif"}}>we create dreams</h3>
           <p>We believe in Quality and Customer Satisfaction above all else. We provide personalized service and handle each project from start to finish.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -146,8 +147,9 @@ const HomeServices=[{
         </div>
         <div className='Home-div-2'>
             <div className='Home-child-div'>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias autem non, nesciunt laboriosam consequatur aut minus omnis perferendis! Architecto quod corporis tenetur porro impedit alias, odio veniam ipsum necessitatibus totam ducimus esse voluptatum officiis aspernatur inventore deleniti veritatis earum distinctio optio officia! Facere illum a perferendis delectus rem quia. Fugit sit impedit rem aut ab quam repr.</p>
-            </div>
+            <p>Our unified team of architects, designers, and construction professionals brings a thoughtful approach to your project as a whole, and to all the details that make your home feel uniquely yours. Each project we undertake starts with you – what are your needs, desires, and dreams for your home? Let’s explore how to make your home more livable and beautiful today.</p>
+        
+                     </div>
         </div>
     </div>
     <div className='Home-about-more-info-box'>
@@ -157,7 +159,7 @@ const HomeServices=[{
         <h4>Let us help you with your remodel or new build!</h4>
       </div>
       <div className="Home-about-more-info-child-button">
-        <button className='Home-btn'>contact us for more</button>
+        <button className='Home-btn' style={{textTransform:"capitalize",fontFamily:'revert'}}>contact us for more</button>
       </div>
       </div>
     </div>
@@ -198,12 +200,28 @@ const HomeServices=[{
             <div className='Our-Projects-photos-container-flex'>
                 {
                     services.map((item,index)=>{
-                    return    <div key={index} className='Our-Projects-photos-container-flex-main'>
-                            <div className='Our-Projects-photos-container-flex-main-div-1'>
-                            <img src={item.image} alt="" />
-                            </div>
-                            <div className='Our-Projects-photos-container-flex-main-div-2'><h6>{item.title}</h6></div>
-                        </div>
+                    // return    <div key={index} className='Our-Projects-photos-container-flex-main'>
+                    //         <div className='Our-Projects-photos-container-flex-main-div-1'>
+                    //         <img src={item.image} alt="" />
+                    //         </div>
+                    //         <div className='Our-Projects-photos-container-flex-main-div-2'><h6>{item.title}</h6></div>
+                    //     </div>
+                     return (
+//                      <div class="card" key={index}>
+//   <img src={item.image} alt="Avatar" style={{width:"100%"}}/>
+//   <div class="container">
+//     <h4><b>{item.title}</b></h4> 
+//     {/* <p>Architect & Engineer</p>  */}
+//   </div>
+// </div>
+
+<div class="w3-card-4" style={{width:"40%"}}>
+<img src={item.image} alt="Alps" style={{width:"100%"}}/>
+<div class="w3-container w3-center">
+  <p>{item.title}</p>
+</div>
+</div>
+)
                     })
                 }
             </div>
@@ -291,7 +309,7 @@ const HomeServices=[{
       <div className='home-footer-fixed-newsletter'>
           <div className='footer-fixed-newsletter-child-div'>
           <h2>Sign up for our newsletter</h2>
-          <form>
+          <form id='footer-fixed-newsletter-child-div-form'>
                     <input type="email" name="email" id="mail" placeholder="Enter Your Email"/>
                     <input type="submit" name="submit" value="Let's Start" id="" placeholder=""/>
         </form></div>
@@ -300,11 +318,11 @@ const HomeServices=[{
         </div>
         <div className='home-footer-fixed-connect-social'>
             <h3>Get connected with us on social networks: <span className='home-footer-fixed-connect-social-icons'>
-              <a href="https://twitter.com/" target="_blank"><TwitterIcon/></a>
-              <a href="https://www.facebook.com/" target="_blank" className='insta'><InstagramIcon/></a>
-              <a href="https://www.instagram.com" target="_blank"><FacebookIcon/></a>
-              <a href="https://www.google.com/" target="_blank"><GoogleIcon/></a>
-              <a href="https://api.whatsapp.com/send?phone=15551234567" target="_blank"><WhatsAppIcon/></a>
+              <a  id='icon-1' href="https://twitter.com/" target="_blank"><TwitterIcon/></a>
+              <a id='icon-1' href="https://www.facebook.com/" target="_blank" className='insta'><InstagramIcon/></a>
+              <a id='icon-1' href="https://www.instagram.com" target="_blank"><FacebookIcon/></a>
+              <a id='icon-1' href="https://www.google.com/" target="_blank"><GoogleIcon/></a>
+              <a id='icon-1' href="https://api.whatsapp.com/send?phone=15551234567" target="_blank"><WhatsAppIcon/></a>
               </span></h3>
         </div>
 

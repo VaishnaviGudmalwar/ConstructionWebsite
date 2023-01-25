@@ -16,8 +16,9 @@ import { FooterFixed } from './Components/Footer/FooterFixed';
 import { ContactUs } from './Components/ContactUs/ContactUs';
 import { Gallery } from './Components/Gallery/Gallery';
 import { Reviews } from './Components/Reviews/Reviews';
-
+// import '@coreui/coreui/dist/css/coreui.min.css'
 function App() {
+  
   return (
     <div className="App">
        <Router>
@@ -36,7 +37,7 @@ function App() {
      <br/>
      <br/> */}
      
-     <FooterFixed/>
+<FooterFixed/>
      
      </Router>
     </div>
